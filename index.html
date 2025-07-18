@@ -8,9 +8,93 @@
     <!-- DaisyUI and Tailwind -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/a2c1bb72d8.js" crossorigin="anonymous"></script>
+
+    <!-- Google font Manrope -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    
+<!-- custom style -->
+<style>
+
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+
+
 </head>
 
-<body>
+<body class="manrope-font">
+    <!-- Header section -->
+    <header class="max-w-6xl mx-auto my-7">
+
+        <!-- nav bar -->
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blogs</a></li>
+                        <li><a>Contact Us</a></li>
+                    </ul>
+                </div>
+                <a class="btn btn-ghost font-extrabold text-3xl"><i class="fa-solid fa-arrow-right text-sm p-2 -rotate-45 bg-[#ABEF5F] rounded-full"></i>Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex lg:mr-16">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-[#494949] font-extrabold">Home</a></li>
+                    <li><a class="text-[#737373]" href="">Services</a></li>
+                    <li><a class="text-[#737373]">Portfolio</a></li>
+                    <li><a class="text-[#737373]">Blogs</a></li>
+                    <li><a class="text-[#737373]">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end ">
+                <div class="p-3 mr-4">
+                    <i class="fa-solid fa-magnifying-glass text-[#737373]"></i>
+                </div>
+                <div class="p-3 mr-4"><i class="fa-solid fa-cart-shopping text-[#737373]"></i></div>
+                <button class="bg-[#ABEF5F] lg:py-3 max-sm:hidden py-1 px-1 md:px-3 md:py-2  lg:px-5 rounded-[32px] lg:text-xl font-extrabold">Book Consult <i class="fa-solid lg:hidden fa-arrow-right bg-black text-white lg:p-1 rounded-full -rotate-45 ml-1"></i></button>
+            </div>
+        </div>
+
+
+        <!-- banner section -->
+         <section class="flex flex-col justify-center items-center gap-6 text-center px-3">
+             <img src="assets/banner.png" alt="">
+            <div class="text-[#212121] lg:text-6xl md:text-4xl text-3xl font-extrabold">A barn house of this design has a striking appearance</div>
+            <div class="text-[#494949] text-sm lg:text-base font-medium lg:max-w-4xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</div>
+            <button class="bg-[#ABEF5F80] border-[#ABEF5F] border-[1px] rounded-[32px] lg:py-3 py-2 lg:px-6 px-4  w-auto text-xl font-bold">View Details <i class="fa-solid fa-arrow-right text-sm p-2 -rotate-45 bg-[#ABEF5F] rounded-full ml-2"></i></button>
+         </section>
+    </header>
+
+    <!-- Main section -->
+    <main>
+
+    </main>
+
+    <!-- footer section -->
+    <footer>
+
+    </footer>
+
 
 </body>
 
